@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Перевод экрана (FREE)</string>
+    <string name="title_settings">Настройки</string>
+    <string name="font_size_title">20sp</string>
+    <string name="title_indicator">Указатель</string>
+    <string name="pinning_delay">Задержка закрепления</string>
+    <string name="pinning_delay_value">∞</string>
+    <string name="vibration_when_detected">Вибрация при обнаружении</string>
+    <string name="menu_bar">Панель меню</string>
+    <string name="menu_transparency">Прозрачность меню</string>
+    <string name="menu_transparency_value">10%</string>
+    <string name="menu_functions">Функции меню</string>
+    <string name="ai_correction">Коррекция ИИ</string>
+    <string name="chatGPT">ChatGPT</string>
+    <string name="translation">Перевод</string>
+    <string name="transparency_of_the_transfer">Прозрачность перевода</string>
+    <string name="transparency_of_the_transfer_value">10%</string>
+    <string name="closing_delay">Задержка закрытия</string>
+    <string name="closing_delay_value">1.6 sec</string>
+    <string name="auto_reading">Авто чтение</string>
+    <string name="transparency_of_the_response">Прозрачность ответа</string>
+    <string name="transparency_of_the_response_value">10%</string>
+    <string name="text_to_speech">Текст в речь</string>
+    <string name="tts_voices">Голоса TTS</string>
+    <string name="tts_voices_value">ru-RU-language</string>
+    <string name="tts_speed">Скорость TTS</string>
+    <string name="tts_speed_value">(•‿•)</string>
+</resources>

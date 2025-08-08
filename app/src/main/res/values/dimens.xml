@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    Шрифты -->
+    <dimen name="default_text_size">17sp</dimen>
+    <dimen name="title_main">25sp</dimen>
+    <dimen name="title">15sp</dimen>
+    <dimen name="value">15sp</dimen>
+<!--    Отступы-->
+    <dimen name="space">110dp</dimen>
+    <dimen name="container_main_margin">10dp</dimen>
+    <dimen name="container_parent_padding_left_right">30dp</dimen>
+    <dimen name="container_parent_padding_top_bottom">30dp</dimen>
+    <dimen name="container_parent_margin_top_bottom">20dp</dimen>
+    <dimen name="container_main_rectangle_rounded">35dp</dimen>
+    <dimen name="container_parent_bottomline_padding_left_right">15dp</dimen>
+    <dimen name="seek_margin_top">15dp</dimen>
+<!--    Ограничение SeekBar (max)-->
+    <integer name="seekbar_max_pinning_delay">14</integer>
+    <integer name="seekbar_max_menu_transparency">49</integer>
+    <integer name="seekbar_max_menu_function">17</integer>
+</resources>

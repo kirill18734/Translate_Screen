@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="container">#171717</color>
+    <color name="container_bottom">#333439</color>
+    <color name="switch_rectangle_false">#8f8f99</color>
+    <color name="switch_bg_false">#333439</color>
+    <color name="switch_bg_true">#6d90ae</color>
+    <color name="seekbar_oval">#7892c2</color>
+    <color name="seekbar_bg_progress_start">#3a4a6a</color>
+    <color name="seekbar_bg_progress_end">#7892c2</color>
+</resources>
