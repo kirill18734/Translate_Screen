@@ -53,11 +53,18 @@ public class MainActivity extends AppCompatActivity {
         ConstraintLayout container_transparency_of_the_transfer = findViewById(R.id.container_transparency_of_the_transfer);
         SeekBar container_seekbar_transparency_of_the_transfer = findViewById(R.id.container_seekbar_transparency_of_the_transfer);
         container_seekbar_transparency_of_the_transfer.setVisibility(View.GONE);
-        container_transparency_of_the_transfer.setOnClickListener(v -> show_seekbar(v, container_seekbar_menu_transparency));
+        container_transparency_of_the_transfer.setOnClickListener(v -> show_seekbar(v, container_seekbar_transparency_of_the_transfer));
         TextView container_value_transparency_of_the_transfer = findViewById(R.id.container_value_transparency_of_the_transfer );
         TransparencyOfTheTransfer transparency_of_the_transfer = new TransparencyOfTheTransfer(this);
         transparency_of_the_transfer.onProgressChanged(container_seekbar_transparency_of_the_transfer, container_value_transparency_of_the_transfer);
         //Задержка закрытия
+        ConstraintLayout container_closing_delay = findViewById(R.id.container_closing_delay);
+        SeekBar container_seekbar_closing_delay = findViewById(R.id.container_seekbar_closing_delay);
+        container_seekbar_closing_delay.setVisibility(View.GONE);
+        container_closing_delay.setOnClickListener(v -> show_seekbar(v, container_seekbar_closing_delay));
+        TextView container_value_closing_delay = findViewById(R.id.container_value_closing_delay );
+        ClosingDelay closing_delay = new ClosingDelay(this);
+        closing_delay.onProgressChanged(container_seekbar_closing_delay, container_value_closing_delay);
         //Прозрачность ответа
         //Голоса TTS
         //Скорость TTS

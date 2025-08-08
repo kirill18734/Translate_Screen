@@ -18,4 +18,8 @@
     <integer name="seekbar_max_pinning_delay">14</integer>
     <integer name="seekbar_max_menu_transparency">49</integer>
     <integer name="seekbar_max_menu_function">17</integer>
+    <integer name="seekbar_max_transparency_of_the_transfer">49</integer>
+    <integer name="seekbar_max_closing_delay">14</integer>
+    <integer name="seekbar_max_transparency_of_the_response">49</integer>
+    <integer name="seekbar_max_tts_speed">8</integer>
 </resources>
