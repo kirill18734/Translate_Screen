@@ -66,8 +66,22 @@ public class MainActivity extends AppCompatActivity {
         ClosingDelay closing_delay = new ClosingDelay(this);
         closing_delay.onProgressChanged(container_seekbar_closing_delay, container_value_closing_delay);
         //Прозрачность ответа
+        ConstraintLayout container_transparency_of_the_response = findViewById(R.id.container_transparency_of_the_response);
+        SeekBar container_seekbar_transparency_of_the_response = findViewById(R.id.container_seekbar_transparency_of_the_response);
+        container_seekbar_transparency_of_the_response.setVisibility(View.GONE);
+        container_transparency_of_the_response.setOnClickListener(v -> show_seekbar(v, container_seekbar_transparency_of_the_response));
+        TextView container_value_transparency_of_the_response = findViewById(R.id.container_value_transparency_of_the_response);
+        PinningDelay transparency_of_the_response = new PinningDelay(this);
+        transparency_of_the_response.onProgressChanged(container_seekbar_transparency_of_the_response, container_value_transparency_of_the_response);
         //Голоса TTS
         //Скорость TTS
+        ConstraintLayout container_tts_speed = findViewById(R.id.container_tts_speed);
+        SeekBar container_seekbar_tts_speed = findViewById(R.id.container_seekbar_tts_speed);
+        container_seekbar_tts_speed.setVisibility(View.GONE);
+        container_tts_speed.setOnClickListener(v -> show_seekbar(v, container_seekbar_tts_speed));
+        TextView container_value_tts_speed = findViewById(R.id.container_value_tts_speed);
+        PinningDelay tts_speed = new PinningDelay(this);
+        tts_speed.onProgressChanged(container_seekbar_tts_speed, container_value_tts_speed);
     }
 
     void show_seekbar(View v, SeekBar seekBar){
@@ -98,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
                 seekBar.startAnimation(fadeOut);
 
-            }, 3000); // задержка 3000 мс = 3 секунды
+            }, 10*1000); // задержка 3000 мс = 3 секунды
 
         } else {
             // Если уже виден — просто скрываем без анимации

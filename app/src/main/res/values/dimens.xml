@@ -6,11 +6,12 @@
     <dimen name="title">15sp</dimen>
     <dimen name="value">15sp</dimen>
 <!--    Отступы-->
-    <dimen name="space">110dp</dimen>
+    <dimen name="space">95dp</dimen>
     <dimen name="container_main_margin">10dp</dimen>
+    <dimen name="container_padding_left_title">15dp</dimen>
     <dimen name="container_parent_padding_left_right">30dp</dimen>
-    <dimen name="container_parent_padding_top_bottom">30dp</dimen>
-    <dimen name="container_parent_margin_top_bottom">20dp</dimen>
+    <dimen name="container_parent_padding_top_bottom">25dp</dimen>
+    <dimen name="container_parent_margin_top_bottom">6dp</dimen>
     <dimen name="container_main_rectangle_rounded">35dp</dimen>
     <dimen name="container_parent_bottomline_padding_left_right">15dp</dimen>
     <dimen name="seek_margin_top">15dp</dimen>
