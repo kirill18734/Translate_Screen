@@ -418,8 +418,6 @@
                     android:id="@+id/container_title_translation"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/container_parent_margin_top_bottom"
-                    android:layout_marginBottom="@dimen/container_parent_margin_top_bottom"
                     android:paddingLeft="@dimen/container_padding_left_title">
 
                     <ImageView
@@ -732,7 +730,7 @@
                         app:srcCompat="@mipmap/title_text_to_speech_foreground" />
 
                     <TextView
-                        android:id="@+id/title_text_to_speech"
+                        android:id="@+id/title_text_about_app"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
@@ -854,8 +852,41 @@
                         app:layout_constraintVertical_bias="1.0" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/container_about_app"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/container_margin_top_about_app"
+                    android:clickable="true"
+                    android:paddingLeft="@dimen/container_padding_left_title">
+
+                    <ImageView
+                        android:id="@+id/img_title_about_app"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/container_text_about_app"
+                        app:layout_constraintHorizontal_bias="0.396"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@mipmap/title_text_about_app_foreground" />
+
+                    <TextView
+                        android:id="@+id/container_text_about_app"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/about_app"
+                        android:textSize="@dimen/title"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
             </LinearLayout>
         </ScrollView>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

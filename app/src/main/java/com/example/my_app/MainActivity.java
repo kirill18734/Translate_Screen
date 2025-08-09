@@ -1,5 +1,7 @@
 package com.example.my_app;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -82,6 +84,15 @@ public class MainActivity extends AppCompatActivity {
         TextView container_value_tts_speed = findViewById(R.id.container_value_tts_speed);
         PinningDelay tts_speed = new PinningDelay(this);
         tts_speed.onProgressChanged(container_seekbar_tts_speed, container_value_tts_speed);
+        //О приложении
+        ConstraintLayout container_about_app = findViewById(R.id.container_about_app);
+
+        container_about_app.setOnClickListener(v -> {
+            String url = getString(R.string.url_source_code); // ссылка из strings.xml
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+            v.getContext().startActivity(intent);
+        });
+
     }
 
     void show_seekbar(View v, SeekBar seekBar){

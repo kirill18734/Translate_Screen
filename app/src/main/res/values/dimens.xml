@@ -15,6 +15,7 @@
     <dimen name="container_main_rectangle_rounded">35dp</dimen>
     <dimen name="container_parent_bottomline_padding_left_right">15dp</dimen>
     <dimen name="seek_margin_top">15dp</dimen>
+    <dimen name="container_margin_top_about_app">30dp</dimen>
 <!--    Ограничение SeekBar (max)-->
     <integer name="seekbar_max_pinning_delay">14</integer>
     <integer name="seekbar_max_menu_transparency">49</integer>

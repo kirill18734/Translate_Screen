@@ -25,4 +25,6 @@
     <string name="tts_voices_value">ru-RU-language</string>
     <string name="tts_speed">Скорость TTS</string>
     <string name="tts_speed_value">(•‿•)</string>
+    <string name="about_app">О приложении</string>
+    <string name="url_source_code">https://github.com/kirill18734/Translate_Screen</string>
 </resources>
